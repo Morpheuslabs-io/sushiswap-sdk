@@ -78,6 +78,14 @@ export const WETH9: { [chainId: number]: Token } = {
     "Wrapped Ether"
   ),
 
+  [ChainId.MATIC_TESTNET]: new Token(
+    ChainId.MATIC,
+    WETH9_ADDRESS[ChainId.MATIC_TESTNET],
+    18,
+    "WETH",
+    "Wrapped Ether"
+  ),
+
   [ChainId.OKEX]: new Token(
     ChainId.OKEX,
     WETH9_ADDRESS[ChainId.OKEX],
