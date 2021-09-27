@@ -24,6 +24,14 @@ cd folder `sushiswap-interface`
 In file `package.json`, replace `"@sushiswap/sdk": "5.0.0-canary.7"`
 with `"@sushiswap/sdk": "file:sushiswap-sdk-5.0.0-canary.7.tgz",`
 
+```
+rm -rf node_modules
+rm -rf yarn.lock
+rm -rf dist
+yarn cache clean
+yarn
+```
+
 4.
 Add token to default list for Matic testnet
 
